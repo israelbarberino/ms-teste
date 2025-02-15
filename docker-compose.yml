@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  server:
+    build: .
+    container_name: ms-teste
+    ports:
+      - "8080:8080"
